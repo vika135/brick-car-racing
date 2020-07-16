@@ -1,0 +1,35 @@
+<div class="grid">
+    <canvas #board class="game-board"></canvas>
+    <div class="right-column">
+        <div>
+            <h1>Car Racing</h1>
+            <p>Score: {{ this.game.points }}</p>       
+            <p>Level: {{ this.game.level }}</p>
+            <p>High Score:</p>
+            <p>{{ this.game.highScore }}</p>
+        </div>
+        <div class="button-container">
+            <button
+                (click)="play()"
+                class="play-button button"
+                *ngIf="!this.game.gameStarted"
+            >
+                Play
+            </button>
+            <button
+                (click)="newGame()"
+                class="reset-button button"
+                *ngIf="this.game.gameStarted"
+            >
+                Reset
+            </button>
+            <button
+                (click)="pause()"
+                class="pause-button button"
+                [class.button-disabled]="!this.game.gameStarted"
+            >
+                Pause
+            </button>
+        </div>
+    </div>
+</div>
