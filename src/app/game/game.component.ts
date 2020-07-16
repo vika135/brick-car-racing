@@ -8,7 +8,6 @@ import {  ROWS, LEVEL, POINTS_PER_LEVEL, CAR_HEIGHT, CAR_WIDTH,KEY } from '../co
 })
 export class GameComponent implements OnInit {
 
-  public barrier: Piece[];
   public enemies: Piece[];//
   public player: Piece;//
   public paused: boolean; //

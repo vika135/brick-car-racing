@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { IPiece } from '../piece/piece.component';
-import { COLS, ROWS, PADDING } from '../constants';
+import { COLS, ROWS,  PADDING } from '../constants';
 //import { BoardComponent } from './board/board.component';
 
 @Injectable({
