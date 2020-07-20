@@ -1,7 +1,7 @@
 # BrickCarRacing
 ![alt text](https://github.com/vika135/brick-car-racing/blob/media/images/Screenshot.png)
 
-##Управление
+## Управление
  - ← →  - управление машинкой
  - Пробел - увеличить скорость вручную
  - Esc - сбросить текущую игру
